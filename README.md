@@ -1,8 +1,29 @@
 # jitai-i18n
-Internationalization and localization framework supporting multi-language translation, regional settings, and dynamic language pack management.
 
-Preparing for Open Source: Exciting things are coming soon.
+**Internationalization Framework for JitAI.**
 
-This repository is currently undergoing internal restructuring and code refinement to ensure we deliver a higher-quality codebase and comprehensive documentation upon our open-source release.
+[🇺🇸 English](README.md) | [🇨🇳 中文](README_ZH.md)
 
-Stay tuned! We will be sharing our work with the community very soon.
+---
+
+> ⚠️ **IMPORTANT NOTE**
+>
+> **jitai-i18n** is a framework application module of the JitAI platform and **cannot run independently**.
+>
+> For a complete development environment setup, please visit the **[jitai-team/quickstart](https://github.com/jitai-team/quickstart)** repository.
+
+---
+
+## ✨ Key Features
+
+- **Multi-language Support**: Built-in Simplified Chinese and English, extensible to more languages (Traditional Chinese, Japanese, Korean, etc.)
+- **Language Pack Management**: Create, edit, import/export language packs
+- **Dynamic Switching**: Switch languages at runtime without restarting the application
+- **Auto Detection**: Automatically select language based on user's browser settings
+- **Term Translation**: Translate built-in terms, add custom terms
+- **Ignore Rules**: Configure content that should not be translated (e.g., class names, specific elements)
+- **Custom Attribute Translation**: Support translating custom HTML attributes
+
+## 🤝 Contributing
+
+We welcome contributions! Please refer to [quickstart](https://github.com/jitai-team/quickstart) to get started.
